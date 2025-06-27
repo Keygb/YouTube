@@ -1,3 +1,5 @@
+# 使用reject-dict方法减少开销
+^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad url reject-dict
 #  拒绝广告请求
 ^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v\d\/player\/ad_break url reject
 ^https?:\/\/(www|s)\.youtube\.com\/api\/stats\/ads url reject
